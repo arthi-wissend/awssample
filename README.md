@@ -46,3 +46,4 @@ AwsTranscribeDemoStack.CloudFrontURL = xxx.cloudfront.net
     - After getting record ID from DB, check the corresponding transcription job via Amazon Transcribe service API.
     - If the job is ready, update the result URL to DB and return it to frontend.
     - If the job is still processing, do nothing.
+# awssample
