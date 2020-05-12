@@ -11,7 +11,8 @@ const SPEAKERS_COUNT_OPTIONS: {
     key: string;
     value: string;
     text: string;
-}[] = [];
+} = [];
+
 for (let i = 2; i <= 10; i++) {
     SPEAKERS_COUNT_OPTIONS.push({
         key: i.toString(),
